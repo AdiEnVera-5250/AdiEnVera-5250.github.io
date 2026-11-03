@@ -225,13 +225,22 @@ function renderProjects(projects, labels) {
       chip.remove();
     }
 
-    const link = node.querySelector(".project-card-link");
-    if (hasText(project.link)) {
-      link.href = project.link.trim();
-      link.textContent = labels.labels.project;
-    } else {
-      link.remove();
-    }
+    const linksList = node.querySelector(".project-card-links");
+    const projectLinks = Array.isArray(project.links) ? project.links : [];
+    projectLinks
+      .filter((entry) => hasText(entry?.url))
+      .forEach((entry) => {
+        const item = document.createElement("li");
+        const anchor = createLink({
+          label: hasText(entry.label) ? entry.label.trim() : labels.labels.project,
+          href: entry.url,
+          external: true
+        });
+        anchor.classList.add("project-card-link");
+        item.append(anchor);
+        linksList.append(item);
+      });
+    linksList.hidden = linksList.childElementCount === 0;
 
     elements.projectsList.append(node);
   });

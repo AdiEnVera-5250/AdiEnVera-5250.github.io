@@ -180,7 +180,9 @@ export const content = {
         problem: "Una línea describiendo el problema.",
         approach: "Método o enfoque.",
         status: "en-progreso",
-        link: ""
+        links: [
+          { label: "NOMBRE DEL ENLACE", url: "https://ENLACE" }
+        ]
       }
     ],
     contact: {
@@ -208,7 +210,7 @@ export const content = {
 
 Reglas asociadas:
 
-- Todo campo opcional vacío (`linkedin`, `github`, `note`, `link`, etc.) se
+- Todo campo opcional vacío (`linkedin`, `github`, `note`, `links`, etc.) se
   oculta al renderizar. Nunca se muestra como `""` ni `undefined`.
 - Si falta alguno de los 3 campos requeridos del Hero en el idioma activo,
   `app.js` muestra un banner visible con el texto
@@ -376,7 +378,7 @@ El proyecto se considera terminado cuando cumple todo lo siguiente:
 - [ ] El banner `"Falta contenido en content.js"` aparece si falta alguno de
       los 3 campos requeridos del Hero, y el resto del sitio se renderiza.
 - [ ] Las secciones con contenido vacío se ocultan según la tabla 5.1.
-- [ ] Los campos opcionales vacíos (`linkedin`, `github`, `link`, `note`) no
+- [ ] Los campos opcionales vacíos (`linkedin`, `github`, `links`, `note`) no
       se renderizan.
 - [ ] El conmutador de idioma alterna correctamente `es`/`en` y persiste la
       preferencia tras recargar.

@@ -27,7 +27,9 @@ export const content = {
         problem: "Una línea describiendo el problema.",
         approach: "Método o enfoque.",
         status: "en-progreso",
-        link: ""
+        links: [
+          { label: "NOMBRE DEL ENLACE", url: "https://ENLACE" }
+        ]
       }
     ],
     contact: {
@@ -64,7 +66,9 @@ export const content = {
         problem: "One line describing the problem.",
         approach: "Method or approach.",
         status: "en-progreso",
-        link: ""
+        links: [
+          { label: "LINK NAME", url: "https://LINK" }
+        ]
       }
     ],
     contact: {
