@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV</title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <p class="content-warning" id="content-warning" role="status" hidden></p>
+
+  <header class="hero" id="hero">
+    <div class="lang-switch" id="lang-switch">
+      <button type="button" data-language="es" aria-pressed="false">ES</button>
+      <button type="button" data-language="en" aria-pressed="false">EN</button>
+    </div>
+    <h1 class="hero-name" id="hero-name"></h1>
+    <p class="hero-tagline" id="hero-tagline" hidden></p>
+    <p class="hero-status" id="hero-status" hidden>
+      <span class="hero-status-dot" aria-hidden="true"></span>
+      <span id="hero-status-text"></span>
+    </p>
+    <ul class="link-list" id="hero-links"></ul>
+  </header>
+
+  <main id="main">
+    <section class="section" id="about" hidden>
+      <h2 data-heading="about"></h2>
+      <p id="about-text"></p>
+    </section>
+
+    <section class="section" id="education" hidden>
+      <h2 data-heading="education"></h2>
+      <div class="entry-list" id="education-list"></div>
+    </section>
+
+    <section class="section" id="skills" hidden>
+      <h2 data-heading="skills"></h2>
+      <div class="skill-groups" id="skills-list"></div>
+    </section>
+
+    <section class="section" id="projects" hidden>
+      <h2 data-heading="projects"></h2>
+      <div class="project-list" id="projects-list"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <section class="section" id="contact" hidden>
+      <h2 data-heading="contact"></h2>
+      <ul class="link-list" id="contact-links"></ul>
+    </section>
+  </footer>
+
+  <template id="tpl-education-item">
+    <article class="entry">
+      <h3 class="entry-institution"></h3>
+      <p class="entry-degree"></p>
+      <p class="entry-period"></p>
+      <p class="entry-note"></p>
+    </article>
+  </template>
+
+  <template id="tpl-skill-group">
+    <div class="skill-group">
+      <h3 class="skill-group-title"></h3>
+      <ul class="skill-list"></ul>
+    </div>
+  </template>
+
+  <template id="tpl-project-card">
+    <article class="project-card">
+      <header class="project-card-header">
+        <h3 class="project-card-title"></h3>
+        <span class="chip"></span>
+      </header>
+      <p class="project-card-problem"></p>
+      <p class="project-card-approach"></p>
+      <a class="project-card-link text-link" target="_blank" rel="noopener noreferrer"></a>
+    </article>
+  </template>
+</body>
+</html>
