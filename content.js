@@ -8,7 +8,7 @@ export const content = {
       linkedin: "",
       github: ""
     },
-    about: "Me interesan los modelos dinámicos que se puedan simular, medir y discutir, y aplicarlos a problemas reales. Estoy a unos cuatro semestres de terminar la carrera y mi objetivo es una maestría en análisis numérico o simulación; también me atraen el álgebra, la probabilidad y la optimización. Suelo apoyarme en herramientas de IA abiertas, como los modelos gratuitos de OpenCode, para programar y buscar literatura. En cuanto a áreas de aplicación, me interesan la economía, la computación y las redes.",
+    about: "Me interesan los modelos dinámicos que se puedan simular, medir y discutir, y aplicarlos a problemas reales. Estoy a unos cuatro semestres de terminar la carrera y mi objetivo es una maestría en análisis numérico o simulación; también me atraen el álgebra, la probabilidad y la optimización. En cuanto a áreas de aplicación, me interesan la economía, la computación y las redes.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
@@ -18,7 +18,7 @@ export const content = {
       }
     ],
     skills: [
-      { group: "Herramientas", items: ["LaTeX", "Python (NumPy, Pandas, Scikit-Learn, Matplotlib)", "C++"] },
+      { group: "Herramientas", items: ["LaTeX", "Python (NumPy, Pandas, Scikit-Learn, Matplotlib)", "C++", "OpenCode (free models)"] },
       { group: "Matemáticas", items: ["Análisis", "Álgebra", "Cálculo", "Matemáticas discretas", "Análisis de datos"] }
     ],
     projects: [
@@ -45,7 +45,7 @@ export const content = {
       linkedin: "",
       github: ""
     },
-    about: "I am interested in dynamic models that can be simulated, measured and discussed, and in applying them to real problems. I am about four semesters away from completing my degree, and my goal is a master's degree in numerical analysis or simulation; I am also drawn to algebra, probability and optimization. I usually rely on open AI tools, such as OpenCode's free models, to program and search the literature. As for application areas, I am interested in economics, computation and networks.",
+    about: "I am interested in dynamic models that can be simulated, measured and discussed, and in applying them to real problems. I am about four semesters away from completing my degree, and my goal is a master's degree in numerical analysis or simulation; I am also drawn to algebra, probability and optimization. As for application areas, I am interested in economics, computation and networks.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
@@ -55,7 +55,7 @@ export const content = {
       }
     ],
     skills: [
-      { group: "Tools", items: ["LaTeX", "Python (NumPy, Pandas, Scikit-Learn, Matplotlib)", "C++"] },
+      { group: "Tools", items: ["LaTeX", "Python (NumPy, Pandas, Scikit-Learn, Matplotlib)", "C++", "OpenCode (free models)"] },
       { group: "Mathematics", items: ["Analysis", "Algebra", "Calculus", "Discrete Mathematics", "Data Analysis"] }
     ],
     projects: [
