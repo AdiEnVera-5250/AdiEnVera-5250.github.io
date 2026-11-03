@@ -1,9 +1,9 @@
 export const content = {
   es: {
     hero: {
-      name: "NOMBRE COMPLETO",
-      tagline: "Estudiante de Matemáticas Puras · interés en [ÁREA]",
-      status: "Abierto a [TIPO DE OPORTUNIDAD]",
+      name: "Vera, Adid",
+      tagline: "Estudiante de Matemáticas Puras · interés en algebra, redes, simulación y análisis numérico",
+      status: "Abierto a prácticas y proyectos",
       email: "tu@correo.com",
       linkedin: "",
       github: ""
@@ -11,21 +11,21 @@ export const content = {
     about: "TEXTO AQUÍ",
     education: [
       {
-        institution: "UNIVERSIDAD",
+        institution: "Universidad de los Andes, Venezuela",
         degree: "Licenciatura en Matemáticas",
-        period: "20XX — 20XX (en curso)",
-        note: ""
+        period: "2023 — 20XX (en curso)",
+        note: "Materias a ver el proximo semestre: Ecuaciones Diferenciales, Topologia, Analisis numerico y Machine Learning(Tentativamente)."
       }
     ],
     skills: [
-      { group: "Herramientas", items: ["LaTeX", "Python", "R"] },
-      { group: "Matemáticas", items: ["Análisis", "Álgebra", "Probabilidad"] }
+      { group: "Herramientas", items: ["LaTeX", "Python", "C++", "Numpy", "Pandas", "Scikit-Learn", "Matplotlib"] },
+      { group: "Matemáticas", items: ["Análisis", "Álgebra", "Cálculo", "Matematicas discretas", "Analisis de datos"] }
     ],
     projects: [
       {
-        title: "TÍTULO DEL PROYECTO",
-        problem: "Una línea describiendo el problema.",
-        approach: "Método o enfoque.",
+        title: "Analisis exploratorio de cascadas en redes homophilicas intervenidas",
+        problem: "Sobre una red intervenida se busca conocer su sensibilidad a las dinamicas de cascadas respecto a sus parametros originales y los parametros de la intervencion.",
+        approach: "Simulacion de las dinamicas sobre redes generadas por computadora y analisis de las metricas obtenidas",
         status: "en-progreso",
         link: ""
       }
@@ -38,9 +38,9 @@ export const content = {
   },
   en: {
     hero: {
-      name: "FULL NAME",
-      tagline: "Pure Mathematics student · interest in [AREA]",
-      status: "Open to [OPPORTUNITY TYPE]",
+      name: "Vera, Adid",
+      tagline: "Pure Mathematics student · interest in algebra, networks, simulation and numerical analysis",
+      status: "Open to internships and projects",
       email: "you@email.com",
       linkedin: "",
       github: ""
@@ -48,21 +48,21 @@ export const content = {
     about: "TEXT HERE",
     education: [
       {
-        institution: "UNIVERSITY",
+        institution: "Universidad de los Andes, Venezuela",
         degree: "BSc in Mathematics",
-        period: "20XX — 20XX (in progress)",
-        note: ""
+        period: "2023 — 20XX (in progress)",
+        note: "Courses planned for next semester: Differential Equations, Topology, Numerical Analysis and Machine Learning (tentatively)."
       }
     ],
     skills: [
-      { group: "Tools", items: ["LaTeX", "Python", "R"] },
-      { group: "Mathematics", items: ["Analysis", "Algebra", "Probability"] }
+      { group: "Tools", items: ["LaTeX", "Python", "C++", "NumPy", "Pandas", "Scikit-Learn", "Matplotlib"] },
+      { group: "Mathematics", items: ["Analysis", "Algebra", "Calculus", "Discrete Mathematics", "Data Analysis"] }
     ],
     projects: [
       {
-        title: "PROJECT TITLE",
-        problem: "One line describing the problem.",
-        approach: "Method or approach.",
+        title: "Exploratory analysis of cascades in intervened homophilic networks",
+        problem: "For an intervened network, the goal is to understand the sensitivity of cascade dynamics to the original network parameters and to the intervention parameters.",
+        approach: "Simulation of the dynamics on computer-generated networks and analysis of the resulting metrics.",
         status: "en-progreso",
         link: ""
       }
