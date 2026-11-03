@@ -2,30 +2,30 @@ export const content = {
   es: {
     hero: {
       name: "Vera, Adid",
-      tagline: "Estudiante de Matemáticas Puras · interés en algebra, redes, optimización, simulación y análisis numérico",
+      tagline: "Estudiante de Matemáticas Puras · interés en álgebra, redes, optimización, simulación y análisis numérico",
       status: "Abierto a prácticas y proyectos",
       email: "tu@correo.com",
       linkedin: "",
       github: ""
     },
-    about: "Me gusta la computacion y los modelos dinamicos que se puedan simular, medir y discutir. Actualmente me encuentro cerca de los ultimos cuatro semestres de mi carrera y disfrutaria de poder aplicar todo lo aprendido en dar soluciones a problemas usando modelos matematicos. Suelo apoyarme en herramientas de IA abiertas tales como los modelos gratuitos de opencode a la hora programar y busqueda de literatura. De igual manera, mi objetivo es poder estudiar una maestria especializada en analisis numerio y/o simulacion tambien me siento atraido hacia las areas de algebra, probabilidad y optimizacion a pesar de no haber recibido cursos formales de estas dos ultimas aun. Sobre areas de conocimiento especifico me encuentro interesante el area de economia, computacion y redes.",
+    about: "Me interesan los modelos dinámicos que se puedan simular, medir y discutir, y aplicarlos a problemas reales. Estoy a unos cuatro semestres de terminar la carrera y mi objetivo es una maestría en análisis numérico o simulación; también me atraen el álgebra, la probabilidad y la optimización. Suelo apoyarme en herramientas de IA abiertas, como los modelos gratuitos de OpenCode, para programar y buscar literatura. En cuanto a áreas de aplicación, me interesan la economía, la computación y las redes.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
         degree: "Licenciatura en Matemáticas",
         period: "2023 — 20XX (en curso)",
-        note: "Materias a ver el proximo semestre: Ecuaciones Diferenciales, Topologia, Analisis numerico y Machine Learning(Tentativamente)."
+        note: "Materias por ver el próximo semestre: Ecuaciones Diferenciales, Topología, Análisis Numérico y Machine Learning (tentativamente)."
       }
     ],
     skills: [
-      { group: "Herramientas", items: ["LaTeX", "Python (Numpy, Pandas, Scikit-Learn, Matplotlib)", "C++"] },
-      { group: "Matemáticas", items: ["Análisis", "Álgebra", "Cálculo", "Matematicas discretas", "Analisis de datos"] }
+      { group: "Herramientas", items: ["LaTeX", "Python (NumPy, Pandas, Scikit-Learn, Matplotlib)", "C++"] },
+      { group: "Matemáticas", items: ["Análisis", "Álgebra", "Cálculo", "Matemáticas discretas", "Análisis de datos"] }
     ],
     projects: [
       {
-        title: "Analisis exploratorio de cascadas en redes homophilicas intervenidas",
-        problem: "Sobre una red intervenida se busca conocer su sensibilidad a las dinamicas de cascadas respecto a sus parametros originales y los parametros de la intervencion. Usando de referencia la intervenciones propuestas por Neuhausser et al., 2023",
-        approach: "Simulacion de las dinamicas sobre redes generadas por computadora y analisis de las metricas obtenidas.",
+        title: "Análisis exploratorio de cascadas en redes homofílicas intervenidas",
+        problem: "Sobre una red intervenida se busca conocer su sensibilidad a las dinámicas de cascadas respecto a sus parámetros originales y los parámetros de la intervención. Tomando como referencia las intervenciones propuestas por Neuhausser et al., 2023.",
+        approach: "Simulación de las dinámicas sobre redes generadas por computadora y análisis de las métricas obtenidas.",
         status: "en-progreso",
         link: ""
       }
@@ -45,7 +45,7 @@ export const content = {
       linkedin: "",
       github: ""
     },
-    about: "I enjoy computation and dynamic models that can be simulated, measured and discussed. I am close to the last four semesters of my degree and would like to apply what I have learned to solving problems with mathematical models. I usually rely on open AI tools such as OpenCode's free models when programming and searching the literature. My goal is to pursue a master's degree specialized in numerical analysis and/or simulation; I am also drawn to algebra, probability and optimization, even though I have not yet taken formal courses in the latter two. As for specific fields, I am interested in economics, computation and networks.",
+    about: "I am interested in dynamic models that can be simulated, measured and discussed, and in applying them to real problems. I am about four semesters away from completing my degree, and my goal is a master's degree in numerical analysis or simulation; I am also drawn to algebra, probability and optimization. I usually rely on open AI tools, such as OpenCode's free models, to program and search the literature. As for application areas, I am interested in economics, computation and networks.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
@@ -61,7 +61,7 @@ export const content = {
     projects: [
       {
         title: "Exploratory analysis of cascades in intervened homophilic networks",
-        problem: "For an intervened network, the goal is to understand the sensitivity of cascade dynamics to the original network parameters and to the intervention parameters, using as reference the interventions proposed by Neuhausser et al., 2023.",
+        problem: "For an intervened network, the goal is to understand the sensitivity of cascade dynamics to the original network parameters and to the intervention parameters, taking as reference the interventions proposed by Neuhausser et al., 2023.",
         approach: "Simulation of the dynamics on computer-generated networks and analysis of the resulting metrics.",
         status: "en-progreso",
         link: ""
