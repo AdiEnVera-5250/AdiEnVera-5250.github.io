@@ -4,9 +4,9 @@ export const content = {
       name: "Vera, Adid",
       tagline: "Estudiante de Matemáticas Puras · interés en álgebra, redes, optimización, simulación y análisis numérico",
       status: "Abierto a prácticas y proyectos",
-      email: "tu@correo.com",
+      email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
-      github: ""
+      github: "https://github.com/AdiEnVera-5250"
     },
     about: "Me interesan los modelos dinámicos que se puedan simular, medir y discutir, y aplicarlos a problemas reales. Estoy a unos cuatro semestres de terminar la carrera y mi objetivo es una maestría en análisis numérico o simulación; también me atraen el álgebra, la probabilidad y la optimización. En cuanto a áreas de aplicación, me interesan la economía, la computación y las redes.",
     education: [
@@ -42,9 +42,9 @@ export const content = {
       }
     ],
     contact: {
-      email: "tu@correo.com",
+      email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
-      github: ""
+      github: "https://github.com/AdiEnVera-5250"
     }
   },
   en: {
@@ -52,9 +52,9 @@ export const content = {
       name: "Vera, Adid",
       tagline: "Pure Mathematics student · interest in algebra, networks, optimization, simulation and numerical analysis",
       status: "Open to internships and projects",
-      email: "you@email.com",
+      email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
-      github: ""
+      github: "https://github.com/AdiEnVera-5250"
     },
     about: "I am interested in dynamic models that can be simulated, measured and discussed, and in applying them to real problems. I am about four semesters away from completing my degree, and my goal is a master's degree in numerical analysis or simulation; I am also drawn to algebra, probability and optimization. As for application areas, I am interested in economics, computation and networks.",
     education: [
@@ -90,9 +90,9 @@ export const content = {
       }
     ],
     contact: {
-      email: "you@email.com",
+      email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
-      github: ""
+      github: "https://github.com/AdiEnVera-5250"
     }
   }
 };
