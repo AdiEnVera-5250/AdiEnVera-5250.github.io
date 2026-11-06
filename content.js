@@ -8,7 +8,7 @@ export const content = {
       linkedin: "",
       github: "https://github.com/AdiEnVera-5250"
     },
-    about: "Me interesa convertir problemas concretos en modelos que se puedan contrastar con datos. Quiero hacer una maestría en análisis numérico o simulación y aplicar ese trabajo a sistemas complejos. Busco una formación en métodos que sirvan en varios dominios y que sea útil tanto en investigación como en aplicaciones fuera de la academia.",
+    about: "Me interesa convertir problemas concretos en modelos que se puedan medir, contrastar y debatir. Quiero hacer una maestría en análisis numérico o simulación y aplicar ese trabajo a sistemas complejos. Busco una formación en métodos que sirvan en varios dominios y que sea útil tanto en investigación como en aplicaciones fuera de la academia.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
@@ -56,7 +56,7 @@ export const content = {
       linkedin: "",
       github: "https://github.com/AdiEnVera-5250"
     },
-    about: "I am interested in turning concrete problems into models that can be checked against data. I plan to pursue a master's degree in numerical analysis or simulation and to apply that work to complex systems. I am looking for training in methods that apply across several domains and are useful both in research and in applications outside academia.",
+    about: "I am interested in turning concrete problems into models that can be measured, compared and debated. I plan to pursue a master's degree in numerical analysis or simulation and to apply that work to complex systems. I am looking for training in methods that apply across several domains and are useful both in research and in applications outside academia.",
     education: [
       {
         institution: "Universidad de los Andes, Venezuela",
