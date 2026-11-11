@@ -34,8 +34,8 @@ export const content = {
       },
       {
         title: "Autovalores y transformaciones lineales en economía",
-        problem: "El preprint «Spectral Methods in Microeconomics» de Golub (2026) aplica métodos espectrales a problemas de microeconomía, pero deja varias demostraciones como pasos dados por hecho. El proyecto cubre ese vacío.",
-        approach: "Demostraciones de la serie de Neumann, el modelo de consenso de DeGroot y la centralidad de Katz-Bonacich, con sus aplicaciones.",
+        problem: "El preprint «Spectral Methods in Microeconomics» de Golub (2026) aplica métodos espectrales a problemas de microeconomía y deja varias demostraciones como pasos dados por hecho. El informe recoge algunas de ellas.",
+        approach: "Breve informe con algunas demostraciones de los métodos tratados: serie de Neumann, modelo de consenso de DeGroot y centralidad de Katz-Bonacich.",
         status: "completado",
         links: [
           { label: "Informe", url: "https://www.overleaf.com/project/6aea5f22b9b8ddd639f6f182/share#4bf25e07783c57655707f3a42d8517ba2f0a78e44dbcfbf4" }
@@ -83,8 +83,8 @@ export const content = {
       },
       {
         title: "Eigenvalues and linear transformations in economics",
-        problem: "Golub's preprint \"Spectral Methods in Microeconomics\" (2026) applies spectral methods to microeconomics problems but leaves several proofs as steps taken for granted. The project fills that gap.",
-        approach: "Proofs of the Neumann series, the DeGroot social consensus model and Katz-Bonacich centrality, together with their applications.",
+        problem: "Golub's preprint \"Spectral Methods in Microeconomics\" (2026) applies spectral methods to microeconomics problems and leaves several proofs as steps taken for granted. The report collects a few of them.",
+        approach: "Short report with some proofs of the methods involved: Neumann series, the DeGroot social consensus model and Katz-Bonacich centrality.",
         status: "completado",
         links: [
           { label: "Report", url: "https://www.overleaf.com/project/6aea5f22b9b8ddd639f6f182/share#4bf25e07783c57655707f3a42d8517ba2f0a78e44dbcfbf4" }
