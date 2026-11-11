@@ -28,7 +28,8 @@ export const content = {
         approach: "Simulación sobre redes generadas por computadora y comparación pareada de las métricas resultantes.",
         status: "en-progreso",
         links: [
-          { label: "Planteamiento experimental", url: "https://www.overleaf.com/project/6ae650f3374fe1802dbd8ad8/share#0a0c1f7b5b63c82aff8143824f7059594d031adf1914a417" }
+          { label: "Planteamiento experimental", url: "https://www.overleaf.com/project/6ae650f3374fe1802dbd8ad8/share#0a0c1f7b5b63c82aff8143824f7059594d031adf1914a417" },
+          { label: "Repositorio", url: "https://github.com/AdiEnVera-5250/bah-cascade-intervention" }
         ]
       },
       {
@@ -76,7 +77,8 @@ export const content = {
         approach: "Simulation on computer-generated networks and paired comparison of the resulting metrics.",
         status: "en-progreso",
         links: [
-          { label: "Experimental proposal", url: "https://www.overleaf.com/project/6ae650f3374fe1802dbd8ad8/share#0a0c1f7b5b63c82aff8143824f7059594d031adf1914a417" }
+          { label: "Experimental proposal", url: "https://www.overleaf.com/project/6ae650f3374fe1802dbd8ad8/share#0a0c1f7b5b63c82aff8143824f7059594d031adf1914a417" },
+          { label: "Repository", url: "https://github.com/AdiEnVera-5250/bah-cascade-intervention" }
         ]
       },
       {
