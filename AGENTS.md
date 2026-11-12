@@ -18,7 +18,7 @@ analytics, sin formulario de contacto funcional. Contacto vía `mailto:`,
 LinkedIn y GitHub (estos dos últimos reservados, se muestran solo si están
 rellenados).
 
-**Idiomas**: español (por defecto) e inglés, con conmutador persistente.
+**Idiomas**: inglés (por defecto) y español, con conmutador persistente.
 
 **Hosting**: GitHub Pages, servido como sitio estático desde la raíz del
 repositorio en la rama `main`.
@@ -129,7 +129,7 @@ Responsive:
 Accesibilidad mínima:
 - Contraste de texto cuerpo ≥ 4.5:1 sobre `--bg` (verificar `--text-body`).
 - Todo elemento interactivo es focusable y tiene `:focus-visible`.
-- `<html lang="es">` que cambia a `en` al conmutar idioma.
+- `<html lang="en">` que cambia a `es` al conmutar idioma.
 - Imágenes (si algún día las hay) con `alt` obligatorio.
 
 ---

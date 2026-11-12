@@ -1,6 +1,6 @@
 import { content } from "../content.js";
 
-const DEFAULT_LANGUAGE = "es";
+const DEFAULT_LANGUAGE = "en";
 const SUPPORTED_LANGUAGES = ["es", "en"];
 const STORAGE_KEY = "lang";
 
@@ -274,16 +274,6 @@ function updateLanguageSwitch(language, labels) {
   });
 }
 
-function updateDocumentMeta(hero) {
-  if (!hasText(hero?.name)) {
-    return;
-  }
-  document.title = hero.name.trim();
-  if (hasText(hero.tagline)) {
-    document.querySelector('meta[name="description"]')?.setAttribute("content", hero.tagline.trim());
-  }
-}
-
 function applyLanguage(language) {
   const locale = content[language] ? language : DEFAULT_LANGUAGE;
   const data = content[locale] ?? {};
@@ -294,7 +284,6 @@ function applyLanguage(language) {
   updateLanguageSwitch(locale, labels);
 
   const heroComplete = renderHero(data.hero, labels);
-  updateDocumentMeta(data.hero);
   renderAbout(data.about);
   renderEducation(data.education);
   renderSkills(data.skills);

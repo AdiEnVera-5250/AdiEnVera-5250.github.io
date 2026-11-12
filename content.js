@@ -2,7 +2,7 @@ export const content = {
   es: {
     hero: {
       name: "Adid Vera",
-      tagline: "Estudiante de Matemáticas Puras · interés en álgebra, redes, optimización, simulación y análisis numérico",
+      tagline: "Estudiante de Matemáticas · interés en álgebra, redes, optimización, simulación y análisis numérico",
       status: "Abierto a prácticas y proyectos",
       email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
@@ -14,7 +14,7 @@ export const content = {
         institution: "Universidad de los Andes, Venezuela",
         degree: "Licenciatura en Matemáticas",
         period: "2023 — 2028 (fecha tentativa)",
-        note: "Promedio ponderado: 16.6/20 · Sin materias reprobadas hasta la fecha · Reconocido dos veces entre los estudiantes con mejor rendimiento de la Facultad de Ciencias (2024, 2026)."
+        note: ""
       }
     ],
     skills: [
@@ -51,7 +51,7 @@ export const content = {
   en: {
     hero: {
       name: "Adid Vera",
-      tagline: "Pure Mathematics student · interest in algebra, networks, optimization, simulation and numerical analysis",
+      tagline: "Mathematics student · interest in algebra, networks, optimization, simulation and numerical analysis",
       status: "Open to internships and projects",
       email: "adidenmanuel16.2022@gmail.com",
       linkedin: "",
@@ -63,7 +63,7 @@ export const content = {
         institution: "Universidad de los Andes, Venezuela",
         degree: "BSc in Mathematics",
         period: "2023 — 2028 (expected)",
-        note: "Weighted average: 16.6/20 · No failed courses to date · Recognized twice as one of the highest-performing students in the Faculty of Sciences (2024, 2026)."
+        note: ""
       }
     ],
     skills: [
