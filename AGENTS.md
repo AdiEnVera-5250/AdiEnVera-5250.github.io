@@ -7,7 +7,7 @@ Guía operativa para cualquier agente (IA o humano) que desarrolle este proyecto
 ## 1. Resumen del proyecto
 
 Sitio web personal de una sola página que funciona como carta de presentación
-y CV extendido. El autor es estudiante de Matemáticas Puras, sin título aún ni
+y CV extendido. El autor es estudiante de Matemáticas, sin título aún ni
 experiencia de industria, con interés mixto (≈2/3 académico, ≈1/3 industria).
 
 **Objetivo del sitio**: que un reclutador entienda en menos de 10 segundos
@@ -155,7 +155,7 @@ export const content = {
   es: {
     hero: {
       name: "NOMBRE COMPLETO",
-      tagline: "Estudiante de Matemáticas Puras · interés en [área]",
+      tagline: "Estudiante de Matemáticas · interés en [área]",
       status: "Abierto a [tipo de oportunidad]",
       email: "tu@correo.com",
       linkedin: "",

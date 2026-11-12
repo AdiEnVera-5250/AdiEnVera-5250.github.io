@@ -2,7 +2,7 @@ export const content = {
   es: {
     hero: {
       name: "NOMBRE COMPLETO",
-      tagline: "Estudiante de Matemáticas Puras · interés en [ÁREA]",
+      tagline: "Estudiante de Matemáticas · interés en [ÁREA]",
       status: "Abierto a [TIPO DE OPORTUNIDAD]",
       email: "tu@correo.com",
       linkedin: "",
@@ -41,7 +41,7 @@ export const content = {
   en: {
     hero: {
       name: "FULL NAME",
-      tagline: "Pure Mathematics student · interest in [AREA]",
+      tagline: "Mathematics student · interest in [AREA]",
       status: "Open to [OPPORTUNITY TYPE]",
       email: "you@email.com",
       linkedin: "",
